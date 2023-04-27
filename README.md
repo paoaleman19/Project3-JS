@@ -10,6 +10,9 @@ There are 13 primary categories: Baby products, bath products, fragrances, hair 
 
 Visual references:
 
+<img width="872" alt="image" src="https://user-images.githubusercontent.com/120423303/234738167-c66f5c0b-c674-4f65-b902-5e07de76d152.png">
+
+
 1: Top Companies Reported 
 Screen Shot 2023-04-26 at 7.34.42 PM.png
 
