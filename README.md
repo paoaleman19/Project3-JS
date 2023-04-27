@@ -10,20 +10,18 @@ There are 13 primary categories: Baby products, bath products, fragrances, hair 
 
 Visual references:
 
-<img width="872" alt="image" src="https://user-images.githubusercontent.com/120423303/234738167-c66f5c0b-c674-4f65-b902-5e07de76d152.png">
-
-
 1: Top Companies Reported 
-Screen Shot 2023-04-26 at 7.34.42 PM.png
+<img width="381" alt="image" src="https://user-images.githubusercontent.com/120423303/234738903-411b78b4-e3db-45aa-b00c-7e0017dcdda9.png">
 
 2: Primary categories by %
-Screen Shot 2023-04-26 at 7.36.06 PM.png
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/120423303/234739018-16a93428-f71a-4d1b-8a4e-a838b309f7e7.png">
 
 3: Chemical Count per Category 
-Screen Shot 2023-04-26 at 7.36.23 PM.png
+<img width="523" alt="image" src="https://user-images.githubusercontent.com/120423303/234738829-0583b5f0-396f-4929-bd52-8acb17ca6036.png">
 
 4: Chemical substance reported by year
-Screen Shot 2023-04-26 at 7.36.42 PM.png
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/120423303/234739099-c7f62ab5-f7c4-465f-92b6-c3790a672bff.png">
+
 
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
