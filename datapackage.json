@@ -1,0 +1,234 @@
+{
+  "accrual_periodicity": "daily",
+  "additional_limitations": "",
+  "citation": "California Safe Cosmetics Program, California Department of Public Health. 2007-2019. Cosmetics-Chemicals-CA-CDPH.csv.\r\n",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "See Attachment",
+  "data_license": "Terms of Use",
+  "de_identification_method": "",
+  "description": "These data reflect information that has been reported to the California Safe Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public.   \r\n\r\nFor all cosmetic products sold in California, the California Safe Cosmetics Act (“the Act”) requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm.     \r\n\r\nTo assist companies with reporting, CDPH has compiled a list of reportable ingredients based on lists and reports available from the authoritative scientific bodies cited in the Act to cause cancer or reproductive harm; it is meant to serve as guidance and is not all-inclusive. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company:   \r\n\r\n*\tHas annual aggregate sales of cosmetic products of one million dollars or more, and \r\n*\tHas sold cosmetic products in California on or after January 1, 2007.   \r\n\r\nThe data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable.   \r\n\r\nAll products containing carcinogens or developmental or reproductive toxicants may not be included due to companies failing to report.\r\n\r\nList of reportable ingredients: www.cdph.ca.gov/ReportableIngredientsList",
+  "geo_coverage": "California",
+  "geographic_granularity": "other",
+  "keywords": [
+    "chemicals",
+    "consumer products",
+    "cosmetics"
+  ],
+  "limitations": "Limitations",
+  "name": "chemicals-in-cosmetics",
+  "program_web_page": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/CSCP/Pages/CSCP.aspx",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "This data is from the California Safe Cosmetics Program (CSCP) in the California Department of Public Health. The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public. For all cosmetic products sold in California, the California Safe Cosmetics Act requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm. The CSCP maintains a list of “reportable” ingredients. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company: •Has annual aggregate sales of cosmetic products of one million dollars or more, and •Has sold cosmetic products in California on or after January 1, 2007. The data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable. The data reflect information that has been reported to the CSCP. All products containing carcinogens or developmental or reproductive toxicants may not be included, due to companies failing to report.",
+      "format": "CSV",
+      "hash": "1565bd99923ed89dd4e928e984e0d65a",
+      "name": "chemicals-in-cosmetics-csv",
+      "path": "chemicals-in-cosmetics-.csv",
+      "schema": {
+        "fields": [
+          {
+            "description": "The California Department of Public Health (CDPH) internal identification number for product. Note that the CDPHId may appear more than once if a product has more than one Color/Scent/Flavor, more than one Category, or more than one Chemical Name/CAS number reported.",
+            "name": "CDPHId",
+            "title": "CDPHId",
+            "type": "string"
+          },
+          {
+            "description": "Product name as entered by manufacturer, packer and/or distributor. The product name is entered as free-text into the reporting database and may contain misspellings or other errors.",
+            "name": "ProductName",
+            "title": "ProductName",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for a color/scent/flavor.",
+            "name": "CSFId",
+            "title": "CSFId",
+            "type": "string"
+          },
+          {
+            "description": "Color, scent and/or flavor as entered by manufacturer, packer and/or distributor. The color/scent/flavor name is entered as free-text into the reporting database and may contain misspellings or other errors. Not all products have specific colors, scents or flavors.",
+            "name": "CSF",
+            "title": "CSF",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for company.",
+            "name": "CompanyId",
+            "title": "CompanyId",
+            "type": "string"
+          },
+          {
+            "description": "Company name as entered by manufacturer, packer and/or distributor. The company name is entered as free-text into the reporting database and may contain misspellings or other errors.",
+            "name": "CompanyName",
+            "title": "CompanyName",
+            "type": "string"
+          },
+          {
+            "description": "Brand name as entered by manufacturer, packer and/or distributor. The brand name is entered as free-text into the reporting database and may contain misspellings or other errors.",
+            "name": "BrandName",
+            "title": "BrandName",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for category.",
+            "name": "PrimaryCategoryId",
+            "title": "PrimaryCategoryId",
+            "type": "string"
+          },
+          {
+            "description": "Type of product (13 primary categories: Baby Products, Bath Products, Fragrances, Hair Care Products (non-coloring), Hair Coloring Products, Makeup Products (non-permanent), Nail Products, Oral Hygiene Products, Personal Care Products, Shaving Products, Skin Care Products, Sun-Related Products, Tattoos and Permanent Makeup). See attachment for sub-categories within each primary category (Cosmetics-Chemicals-CA-CDPH-DataDictionary-Subcategories.csv).",
+            "name": "PrimaryCategory",
+            "title": "PrimaryCategory",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for subcategory.",
+            "name": "SubCategoryId",
+            "title": "SubCategoryId",
+            "type": "string"
+          },
+          {
+            "description": "Type of product within one of the 13 primary categories. See attachment for sub-categories within each primary category (Cosmetics-Chemicals-CA-CDPH-DataDictionary-Subcategories.xls).",
+            "name": "SubCategory",
+            "title": "SubCategory",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for chemical.",
+            "name": "CasId",
+            "title": "CasId",
+            "type": "string"
+          },
+          {
+            "description": "Chemical identification number (Chemical Abstracts Service registry number assigned to specific chemical). Note that different forms of a chemical  may have different CAS numbers. What appears here is the CAS number selected by the manufacturer, packer and/or distributor.",
+            "name": "CasNumber",
+            "title": "CasNumber",
+            "type": "string"
+          },
+          {
+            "description": "CDPH internal identification number for this chemical's record specific to this product.",
+            "name": "ChemicalId",
+            "title": "ChemicalId",
+            "type": "string"
+          },
+          {
+            "description": "Name of chemical substance in cosmetic product. Note that chemical substances may have more than one Chemical Name. What appears here is the chemical name selected by the manufacturer, packer and/or distributor. The California Safe Cosmetics Act  requires cosmetics companies to report products containing ingredients known or suspected to cause cancer or developmental or reproductive harm.",
+            "name": "ChemicalName",
+            "title": "ChemicalName",
+            "type": "string"
+          },
+          {
+            "description": "Date the product profile was created by manufacturer, packer and/or distributor, that is, the date that the product was first reported to CDPH.",
+            "name": "InitialDateReported",
+            "title": "InitialDateReported",
+            "type": "datetime"
+          },
+          {
+            "description": "Date the product profile was last modified by manufacturer, packer and/or distributor. The product profile contains all information about the product with the exception of chemical information, which is stored separately. This field defaults to the InitialDateReported value initially.",
+            "name": "MostRecentDateReported",
+            "title": "MostRecentDateReported",
+            "type": "datetime"
+          },
+          {
+            "description": "If applicable, date the product was discontinued.",
+            "name": "DiscontinuedDate",
+            "title": "DiscontinuedDate",
+            "type": "datetime"
+          },
+          {
+            "description": "The date that this chemical was first reported to CDPH for this product.",
+            "name": "ChemicalCreatedAt",
+            "title": "ChemicalCreatedAt",
+            "type": "datetime"
+          },
+          {
+            "description": "Date this chemical report was last modified by manufacturer, packer and/or distributor. This field is unique from the product profile. This field defaults to the ChemicalCreatedAt value initially.",
+            "name": "ChemicalUpdatedAt",
+            "title": "ChemicalUpdatedAt",
+            "type": "datetime"
+          },
+          {
+            "description": "If applicable, date the chemical was removed from product, i.e., reformulation.",
+            "name": "ChemicalDateRemoved",
+            "title": "ChemicalDateRemoved",
+            "type": "datetime"
+          },
+          {
+            "description": "Total number of current chemicals reported for this product. This number does not include chemicals that have been removed from a product. This number is a calculated field based on current reporting.",
+            "name": "ChemicalCount",
+            "title": "ChemicalCount",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/596b5eed-31de-4fd8-a645-249f3f9b19c4/resource/57da6c9a-41a7-44b0-ab8d-815ff2cd5913/download/cscpopendata.csv",
+          "title": "Chemicals in Cosmetics (CSV)"
+        }
+      ],
+      "title": "Chemicals in Cosmetics (CSV)"
+    },
+    {
+      "description": "This data is from the California Safe Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public.   \r\n\r\nFor all cosmetic products sold in California, the California Safe Cosmetics Act (“the Act”) requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm.   \r\n\r\nTo assist companies with reporting, CDPH has compiled a list of reportable ingredients based on lists and reports available from the authoritative scientific bodies cited in the Act to cause cancer or reproductive harm; it is meant to serve as guidance and is not all-inclusive. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company:   \r\n\r\n*\tHas annual aggregate sales of cosmetic products of one million dollars or more, and \r\n*\tHas sold cosmetic products in California on or after January 1, 2007.   \r\n\r\nThe data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable.   \r\n\r\nThe data reflect information that has been reported to the CSCP. All products containing carcinogens or developmental or reproductive toxicants may not be included due to companies failing to report.\r\n",
+      "format": "XLSX",
+      "name": "chemicals-in-cosmetics-subcategories",
+      "path": "chemicals-in-cosmetics-subcategories.xlsx",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/596b5eed-31de-4fd8-a645-249f3f9b19c4/resource/8587c728-9b5e-4e69-81d6-393260a84ee9/download/chemicalsincosmetics-dd-subcategories.xlsx",
+          "title": "Chemicals In Cosmetics Subcategories"
+        }
+      ],
+      "title": "Chemicals In Cosmetics Subcategories"
+    },
+    {
+      "description": "This data is from the California Safe Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public.   \r\n\r\nFor all cosmetic products sold in California, the California Safe Cosmetics Act (“the Act”) requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm.   \r\n\r\nTo assist companies with reporting, CDPH has compiled a list of reportable ingredients based on lists and reports available from the authoritative scientific bodies cited in the Act to cause cancer or reproductive harm; it is meant to serve as guidance and is not all-inclusive. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company:   \r\n\r\n*\tHas annual aggregate sales of cosmetic products of one million dollars or more, and \r\n*\tHas sold cosmetic products in California on or after January 1, 2007.   \r\n\r\nThe data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable.   \r\n\r\nThe data reflect information that has been reported to the CSCP. All products containing carcinogens or developmental or reproductive toxicants may not be included due to companies failing to report.\r\n",
+      "format": "PDF",
+      "name": "chemicals-in-cosmetics-description",
+      "path": "chemicals-in-cosmetics-description.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/596b5eed-31de-4fd8-a645-249f3f9b19c4/resource/3fdc8616-b31e-4a0a-bf04-43ccde2cab9f/download/chemicalsincosmetics-description.pdf",
+          "title": "Chemicals in Cosmetics Description"
+        }
+      ],
+      "title": "Chemicals in Cosmetics Description"
+    },
+    {
+      "description": "This data is from the California Safe Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public.   \r\n\r\nFor all cosmetic products sold in California, the California Safe Cosmetics Act (“the Act”) requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm.   \r\n\r\nTo assist companies with reporting, CDPH has compiled a list of reportable ingredients based on lists and reports available from the authoritative scientific bodies cited in the Act to cause cancer or reproductive harm; it is meant to serve as guidance and is not all-inclusive. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company:   \r\n\r\n*\tHas annual aggregate sales of cosmetic products of one million dollars or more, and \r\n*\tHas sold cosmetic products in California on or after January 1, 2007.   \r\n\r\nThe data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable.   \r\n\r\nThe data reflect information that has been reported to the CSCP. All products containing carcinogens or developmental or reproductive toxicants may not be included due to companies failing to report.\r\n",
+      "format": "PDF",
+      "name": "chemicals-in-cosmetics-data-collection-tool",
+      "path": "chemicals-in-cosmetics-data-collection-tool.pdf",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/596b5eed-31de-4fd8-a645-249f3f9b19c4/resource/28c5c460-8cf5-4f26-8c73-0372dfa6d532/download/chemicalsincosmetics-data-collection-tool.pdf",
+          "title": "Chemicals In Cosmetics Data Collection Tool"
+        }
+      ],
+      "title": "Chemicals In Cosmetics Data Collection Tool"
+    },
+    {
+      "description": "This data is from the California Safe Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). The primary purpose of the CSCP is to collect information on hazardous and potentially hazardous ingredients in cosmetic products sold in California and to make this information available to the public.   \r\n\r\nFor all cosmetic products sold in California, the California Safe Cosmetics Act (“the Act”) requires the manufacturer, packer, and/or distributor named on the product label to provide to the CSCP a list of all cosmetic products that contain any ingredients known or suspected to cause cancer, birth defects, or other developmental or reproductive harm.   \r\n\r\nTo assist companies with reporting, CDPH has compiled a list of reportable ingredients based on lists and reports available from the authoritative scientific bodies cited in the Act to cause cancer or reproductive harm; it is meant to serve as guidance and is not all-inclusive. Companies with reportable ingredients in their products must submit information to the California Safe Cosmetics Program if the company:   \r\n\r\n*\tHas annual aggregate sales of cosmetic products of one million dollars or more, and \r\n*\tHas sold cosmetic products in California on or after January 1, 2007.   \r\n\r\nThe data table consists of: label names of cosmetic/personal care products, company/manufacturer names, product brand names, product categories, Chemical Abstracts Service registry numbers (CAS#) of the reported chemical ingredients, names of reported chemical ingredients, the number of reported chemicals for each product, and dates of reporting, product discontinuation or reformulation if applicable.   \r\n\r\nThe data reflect information that has been reported to the CSCP. All products containing carcinogens or developmental or reproductive toxicants may not be included due to companies failing to report.\r\n",
+      "format": "XLSX",
+      "name": "chemicals-in-cosmetics-data-dictionary",
+      "path": "chemicals-in-cosmetics-data-dictionary.xlsx",
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/596b5eed-31de-4fd8-a645-249f3f9b19c4/resource/4a9aa9bb-b400-46eb-b976-460fe6e64a5c/download/chemicalsincosmetics-dd.xlsx",
+          "title": "Chemicals in Cosmetics Data Dictionary"
+        }
+      ],
+      "title": "Chemicals in Cosmetics Data Dictionary"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "California Safe Cosmetics Program",
+      "web": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/CSCP/Pages/CSCP.aspx"
+    }
+  ],
+  "temporal_coverage": "2007- present",
+  "title": "Chemicals in Cosmetics"
+}
