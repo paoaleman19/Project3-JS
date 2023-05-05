@@ -27,6 +27,18 @@ There are 13 primary categories: Baby products, bath products, fragrances, hair 
 
 <img width="270" alt="image" src="https://user-images.githubusercontent.com/120423303/234739099-c7f62ab5-f7c4-465f-92b6-c3790a672bff.png">
 
+## Tools and sources
+
+* Javascript
+* HTML
+* D3.js
+* JSON
+* GitHub and GitHub Pages
+* console.log
+* MongoDB
+* Matplotlib.pyplot
+* Flask
+
 
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
