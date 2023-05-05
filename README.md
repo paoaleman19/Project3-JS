@@ -1,5 +1,6 @@
 # Project3-JS
-Project 3 using Java Script
+
+## Project 3 using Java Script
 
 Chemicals in Cosmetics Database Proposal
 
@@ -8,7 +9,7 @@ The purpose of the CSPC is to collect information of products that contain any i
 
 There are 13 primary categories: Baby products, bath products, fragrances, hair care products, hair coloring products, make up products, nail products, oral hygiene products, personal care products, shaving products, skin care products, sun-related products, tattoos and permanent makeup. 
 
-Visual references:
+## Visual references:
 
 1: Top Companies Reported 
 
@@ -30,12 +31,12 @@ Visual references:
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
 
-## Author
+## Authors
 
-* **Cesar Cruz ** - **[My github](https://github.com/CsarCruz "GitHub for Cesar Cruz")**
-* **Majo García ** - **[My github](https://github.com/MajoGarciaMontes "GitHub for Majo García")**
-* **Pao Aleman ** - **[My github](https://github.com/paoaleman19 "GitHub for Pao Aleman")**
-* **Marce Maldonado ** - **[My github](https://github.com/Marce1301 "GitHub for Marcela Maldonado")**
+* **Cesar Cruz** - **[My github](https://github.com/CsarCruz "GitHub for Cesar Cruz")**
+* **MariaJose García** - **[My github](https://github.com/MajoGarciaMontes "GitHub for Majo García")**
+* **Paola Aleman** - **[My github](https://github.com/paoaleman19 "GitHub for Pao Aleman")**
+* **Marcela Maldonado** - **[My github](https://github.com/Marce1301 "GitHub for Marcela Maldonado")**
 
 ## Acknowledgments
 
@@ -44,5 +45,7 @@ Chemicals in Cosmetics - Catalog. (2023, 29 abril). Retrived from [https://catal
 
 ## Copyright
 
-Copyright:copyright: 2020. All Rights Reserved.
+Copyright:copyright: 2023. All Rights Reserved.
+
+© 2023  Cruz Cesar, García MariaJose, Aleman Paola, Maldonado Marcela , BootCamp Tecnologico de Monterrey.
 
