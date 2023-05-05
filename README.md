@@ -29,3 +29,20 @@ Visual references:
 
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
+
+## Author
+
+* **Cesar Cruz ** - **[My github](https://github.com/CsarCruz "GitHub for Cesar Cruz")**
+* **Majo García ** - **[My github](https://github.com/MajoGarciaMontes "GitHub for Majo García")**
+* **Pao Aleman ** - **[My github](https://github.com/paoaleman19 "GitHub for Pao Aleman")**
+* **Marce Maldonado ** - **[My github](https://github.com/Marce1301 "GitHub for Marcela Maldonado")**
+
+## Acknowledgments
+
+Chemicals in Cosmetics - Catalog. (2023, 29 abril). Retrived from [https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab](https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab/)
+
+
+## Copyright
+
+Copyright:copyright: 2020. All Rights Reserved.
+
