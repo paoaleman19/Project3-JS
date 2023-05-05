@@ -43,6 +43,9 @@ https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
 Chemicals in Cosmetics - Catalog. (2023, 29 abril). Retrived from [https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab](https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab/)
 
 
+## Rubric
+* [Project 3 Rubric - Visualizing Data.docx](https://github.com/paoaleman19/Project3-JS/files/11402900/Project.3.Rubric.-.Visualizing.Data.docx)
+
 ## Copyright
 
 Copyright:copyright: 2023. All Rights Reserved.
