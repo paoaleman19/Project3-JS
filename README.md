@@ -15,21 +15,18 @@ There are 13 primary categories: Baby products, bath products, fragrances, hair 
 
 ## Visual references:
 
-1: Top Companies Reported 
+1: Pie chart: Top Companies Reported
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/120423303/234738903-411b78b4-e3db-45aa-b00c-7e0017dcdda9.png">
+<img width ="250" alt ="image" src="https://user-images.githubusercontent.com/119386031/236638927-4cbbf0be-2bef-41c4-9cbb-6374f0373d05.png">
 
-2: Primary categories by %
+2: Scatter Plot: Count of the Top Primary Categories Reported
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/120423303/234739018-16a93428-f71a-4d1b-8a4e-a838b309f7e7.png">
+<img width ="250" alt ="image" src="https://user-images.githubusercontent.com/119386031/236638796-2d188b44-5c79-49c7-b49a-e36472410f18.png">
 
-3: Chemical Count per Category 
+3: Bar chart: All Companies Reported
 
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/120423303/234738829-0583b5f0-396f-4929-bd52-8acb17ca6036.png">
+<img width ="250" alt ="image" src="https://user-images.githubusercontent.com/119386031/236639016-ad4e2230-8ac2-40a1-a947-76bd726fd835.png">
 
-4: Chemical substance reported by year
-
-<img width="250" alt="image" src="https://user-images.githubusercontent.com/120423303/234739099-c7f62ab5-f7c4-465f-92b6-c3790a672bff.png">
 
 ## Tools and sources
 
