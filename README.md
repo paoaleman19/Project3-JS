@@ -16,6 +16,10 @@ For this project we fetch and grabbed the data from  https://www.data.gov/ our d
 
 ## Data Cleanup and Analysis
 
+### Exploration and clean up
+
+### Analysis
+
 
 ## Visual references:
 
