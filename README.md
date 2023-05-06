@@ -2,16 +2,20 @@
 
 ## Project 3 using Java Script
 
-## Proyect overview
-
-The purpose of this project is to analyse the number of  hazardous and potentially hazardous chemical ingredients reported in cosmetic products. We’ll examine the frecuency of chemical ingredients use, relationships between chemicals per primary category , top reported companies,  and other related relationships derived from the data.
+## Proyect overview 
+The purpose of this project is to analyse the number of   hazardous and potentially hazardous chemical ingredients reported in cosmetic products. We’ll examine the frecuency of chemical ingredients use, relationships between chemicals per primary category , top reported companies,  and other related relationships derived from the data.
 
 ## Chemicals in Cosmetics Database Proposal
-
 The data that we have chosen to work with has been reported to the California State Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). 
 The purpose of the CSPC is to collect information of products that contain any ingredients known or suspected to cause: cancer, birth defects, developmental or reproductive harm. There is a list of “reportable” ingredients in which the California Safe Cosmetics Act requires all the manufacturers, packers, and or distributors to submit if the company has an annual aggregate sale of cosmetic products of 1 million dollars or more and has sold cosmetic products in California on or after January 2007. 
 
 There are 13 primary categories: Baby products, bath products, fragrances, hair care products, hair coloring products, make up products, nail products, oral hygiene products, personal care products, shaving products, skin care products, sun-related products, tattoos and permanent makeup. 
+
+## Finding Data
+For this project we fetch and grabbed the data from  https://www.data.gov/ our data set were retrived form https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
+
+## Data Cleanup and Analysis
+
 
 ## Visual references:
 
