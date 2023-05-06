@@ -54,6 +54,8 @@ For this project we fetch and grabbed the data from  https://www.data.gov/ our d
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
 
+## Conclusions
+
 ## Authors
 
 * **Cesar Cruz Reyes** - **[My github](https://github.com/CsarCruz "GitHub for Cesar Cruz")**
