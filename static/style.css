@@ -1,0 +1,33 @@
+body {
+  background-color: #333333; /* Dark gray background */
+  font-family: 'Arial', sans-serif;
+  color: white !important; /* Set text color to white */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.subtitle {
+  color: white !important; /* Set text color to white */
+}
+
+#fetch-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+#fetch-button:hover {
+  background-color: #45a049;
+}
+
+

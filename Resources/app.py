@@ -1,15 +1,21 @@
 
 
+
 #Import dependencies
 from flask import Flask, jsonify, render_template
 from pymongo import MongoClient
+
 app = Flask(__name__)
+
+
 client = MongoClient(port=27017)
 db = client['project3']
 collection = db["census"]
+
 #################################################
 # Flask Routes
 #################################################
+
 @app.route("/")
 def welcome():
     """List all available api routes."""
@@ -28,7 +34,7 @@ def welcome():
 
 @app.route('/data')
 def return_data():
-    results = collection.find.one()
+    results = collection.find()
     data = []
     for each_result in results:
         data.append({
@@ -55,9 +61,12 @@ def return_data():
         })
     return jsonify(data)
 
-@app.route('/')
-def home():
+
+
+@app.route('/index')
+def index():
     return render_template('index.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
 
