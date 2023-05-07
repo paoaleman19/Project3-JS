@@ -5,7 +5,7 @@ This is the Python code for a Flask web application that offers various access p
 
 First, the code imports the essential dependencies, such as `PyMongo`, a client library for `MongoDB`, and `Flask`, a microweb framework.
 
-The code then launches a `Flas`k instance and connects to the "project3" database in `MongoDB` and the "census" collection.
+The code then launches a `Flask` instance and connects to the "project3" database in `MongoDB` and the "census" collection.
 
 The next line of code uses the @app.route decorator to define three routes. The first route ('/') gives back a greeting and specifies all of the alternative routes. The other two routes deliver data in either JSON or HTML format.
 
