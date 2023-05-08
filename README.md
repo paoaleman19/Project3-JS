@@ -20,7 +20,27 @@ For this project we fetch and grabbed the data from  https://www.data.gov/ our d
 
 ### Exploration and clean up
 
+What we first did in this proyect was Upload or CSV data into Mongo with the use of modeulces `csv`,  `json`, `MongoClient`, `pprint`, and `pandas`.
+
 ### Analysis
+
+Once having the info in MongoDB we used the back-end framework `Flask` to connect to the MongoDB database using the PyMongo library.
+The purpose of this code was to provide a simple web interface that allows the user to interact with the database by performing basic CRUD (Create, Read, Update, Delete) operations.In this part we obtained a  jsonify(data).
+
+Finally we import the data into an `HTML` code which allowed us to create a we page were the user can see and interact with the data. 
+
+The `index.HTML` file links to a JavaScript file called "test.js" that will handle the click event on the "Show Info" button and generate the plots using the `Plotly` library. The HTML file also includes a link to a CSS file called "style.css" that defines styles for the elements on the page.
+
+### Plotly
+
+We Created a bar,  pie, and scatter plots chart using Plotly refered to [Plotly.js documentation](https://plot.ly/javascript/).
+
+1) we group the data by company name and counts the number of occurrences for each company.
+2) we created a bar chart using Plotly to display the total count of each company.
+3) we sort the companies by count in descending order and gets the top 10.
+4) we created a pie chart using Plotly to display the top companies by percentage of total reports.
+5) we grouped the data by primary category and counted the number of occurrences for each category.
+6) we created a scatter plor before getting the top 10 primary categories by count and displaying the count of each category.
 
 
 ## Visual references:
@@ -49,6 +69,7 @@ For this project we fetch and grabbed the data from  https://www.data.gov/ our d
 * MongoDB
 * Matplotlib.pyplot
 * Flask
+* Jupyter Notebook
 
 
 Link to Data Set:
