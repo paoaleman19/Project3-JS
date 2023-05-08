@@ -36,14 +36,14 @@ It uses the fetch API to send a request to the Flask server to retrieve data fro
 
 ### Plotly
 
-We Created a bar,  pie, and scatter plots chart using Plotly refered to [Plotly.js documentation](https://plot.ly/javascript/).
+We Created a bar,  pie, and scatter plots chart using Plotly refered to [Plotly.js documentation](https://plot.ly/javascript/) and  [Plotly Bar chart](https://www.youtube.com/watch?v=N1GwQNatOwo).
 
-1) we group the data by company name and counts the number of occurrences for each company.
-2) we created a bar chart using Plotly to display the total count of each company.
-3) we sort the companies by count in descending order and gets the top 10.
-4) we created a pie chart using Plotly to display the top companies by percentage of total reports.
-5) we grouped the data by primary category and counted the number of occurrences for each category.
-6) we created a scatter plor before getting the top 10 primary categories by count and displaying the count of each category.
+1) the code grouped the data by company name and counts the number of occurrences for each company.
+2) the code created a bar chart using Plotly to display the total count of each company.
+3) it sorted the companies by count in descending order and gets the top 10.
+4) it created a pie chart using Plotly to display the top companies by percentage of total reports.
+5) it grouped the data by primary category and counted the number of occurrences for each category.
+6) it created a scatter plor before getting the top 10 primary categories by count and displaying the count of each category.
 
 
 ## Visual references:
