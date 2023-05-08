@@ -5,7 +5,7 @@
 ## Proyect overview 
 The purpose of this project is to analyse the number of   hazardous and potentially hazardous chemical ingredients reported in cosmetic products. We’ll examine the frecuency of chemical ingredients use, relationships between chemicals per primary category , top reported companies,  and other related relationships derived from the data.
 
-We will create a visualization  in `HTML` coding with  a `Python Flask`, `HTML/CSS`, `JavaScript`, and  `MongoDB`.
+We will create a visualization  in `HTML` coding with  the use of `Python Flask`, `HTML/CSS`, `JavaScript`, and  `MongoDB`.
 
 ## Chemicals in Cosmetics Database Proposal
 The data that we have chosen to work with has been reported to the California State Cosmetics Program (CSCP) in the California Department of Public Health (CDPH). 
