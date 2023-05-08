@@ -32,6 +32,7 @@ Finally we import the data into an `HTML` code which allowed us to create a web 
 The `index.HTML` file links to a JavaScript file called "test.js" that handle the click event on the "Show Info" button and generate the plots using the `Plotly` library. The HTML file also includes a link to a CSS file called "style.css" that defines styles for the elements on the page.
 
 * JavaScript test (test.js)
+
 It uses the fetch API to send a request to the Flask server to retrieve data from the "/data" endpoint and once the response is received, it uses the json() method to extract the response body as JSON. Then it groups the data by company name and counts the number of occurrences for each company and finally it  convert the counts object into an array of objects with keys 'x' and 'y' to can create the plots.
 
 ### Plotly
