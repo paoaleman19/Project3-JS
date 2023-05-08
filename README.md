@@ -74,7 +74,8 @@ We Created a bar,  pie, and scatter plots chart using Plotly refered to [Plotly.
 * Matplotlib.pyplot
 * Flask
 * Jupyter Notebook
-
+* CORS
+* LiveServer JS
 
 Link to Data Set:
 https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
