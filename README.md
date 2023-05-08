@@ -27,9 +27,12 @@ What we first did in this proyect was Upload or CSV data into Mongo with the use
 Once having the info in MongoDB we used the back-end framework `Flask` to connect to the MongoDB database using the PyMongo library.
 The purpose of this code was to provide a simple web interface that allows the user to interact with the database by performing basic CRUD (Create, Read, Update, Delete) operations.In this part we obtained a  jsonify(data).
 
-Finally we import the data into an `HTML` code which allowed us to create a we page were the user can see and interact with the data. 
+Finally we import the data into an `HTML` code which allowed us to create a web page were the user can see and interact with the data. 
 
-The `index.HTML` file links to a JavaScript file called "test.js" that will handle the click event on the "Show Info" button and generate the plots using the `Plotly` library. The HTML file also includes a link to a CSS file called "style.css" that defines styles for the elements on the page.
+The `index.HTML` file links to a JavaScript file called "test.js" that handle the click event on the "Show Info" button and generate the plots using the `Plotly` library. The HTML file also includes a link to a CSS file called "style.css" that defines styles for the elements on the page.
+
+* JavaScript test (test.js)
+It uses the fetch API to send a request to the Flask server to retrieve data from the "/data" endpoint and once the response is received, it uses the json() method to extract the response body as JSON. Then it groups the data by company name and counts the number of occurrences for each company and finally it  convert the counts object into an array of objects with keys 'x' and 'y' to can create the plots.
 
 ### Plotly
 
