@@ -84,13 +84,11 @@ https://catalog.data.gov/dataset/chemicals-in-cosmetics-7d6ab
 
 In this project, we created a web page in HTML using  JavaScript, HTML, MongoDB, Python, Plotly and Flask to analyze a dataset of chemical ingredients  in cosmentics by brand .
 
-We used Flask to create a web server and define routes to serve our HTML templates and provide access to the data.
-
-We used Plotly to create  data visualizations, including a bar chart, pie chart, and scatter plot, to explore the dataset and visualize patterns in the data.
+We used Flask to create a web server and define routes to serve our HTML templates and provide access to the data and Plotly to create  data visualizations, including a bar chart, pie chart, and scatter plot, to explore the dataset and visualize patterns in the data.
 
 We used JavaScript and the Fetch APP to retrieve data from the Flask server and update the visualizations in real time when the user interacted with the web page.
  
-Some of the insights you can draw from the visualizations include: All companies reported and te number of chemical ingredientes per company in a bar chart, top 10 companies reported and their share by number of chemical ingredients reported in a pie chart and the top primary categories reported in a sclatter plot where we can identify the Make up products as the category with the higher number of chemical ingredients reported followed by Nail products. The 5 most frequently reported chemicas were Titanium dioxid, Silica, Retinol, Mica and Butylated hydroxyanisole from 123  hazardous chemicals in 13 primary categories.
+Some of the insights you can draw from the visualizations include: All companies reported and te number of chemical ingredientes per company in a bar chart, top 10 companies reported and their share by number of chemical ingredients reported in a pie chart and the top primary categories reported in a sclatter plot where we can identify the Make up products as the category with the higher number of chemical ingredients reported by almost 700 companies followed by Nail products. The 5 most frequently reported chemicas were Titanium dioxid, Silica, Retinol, Mica and Butylated hydroxyanisole from 123  hazardous chemicals in 13 primary categories.
 
 Overall, this project provided a good opportunity to practice working with Flask, Plotly, and JavaScript, as well as data manipulation and visualization techniques. But also it is important to highlight that we face stoppers when trying to read the info given by Flask into the Javascript code , specifically with the CORS error. 
 
